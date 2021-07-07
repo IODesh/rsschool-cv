@@ -1,2 +1,2 @@
-https://IODesh.github.io/IODesh-rsschool-cv/cv 
+https://IODesh.github.io/rsschool-cv/cv 
 
