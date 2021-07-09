@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: black;
+    background-image: url(img/1614368424_20-p-svetlo-serii-fon-kartinka-23.jpg);
+    background-repeat: inherit;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+
+.links {
+    display: flex;
+    padding-bottom: 200px;
+    margin-top: 50px;
+    list-style-type: none
+    
+}
+
+.links li a {
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.image {
+    margin-left: 50px;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+
+section {
+padding-left: 50px;
+padding-right: 50px;
+margin: 0 auto;
+}
+
+#AboutMe {
+    padding: 10px 0px;
+    margin: 0 auto;
+    font-size: 35px;
+    text-align: center;    
+}
+
+section h2, h3, h4, h5, h6 {
+    margin-bottom: 30px;    
+}
+
+section ul, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    
+}
+
+section p {
+    margin-bottom: 50px;
+    margin-top: 0;
+    font-size: 25px;
+}
