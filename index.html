@@ -41,16 +41,63 @@
       
             <h2 id="Skills"> My Skills:</h2>
             <ul> 
+                <li> Pascal Programming Basics </li>
                 <li> 1С 7.7, 8.0 Programming Basics </li>
                 <li> Project managment whith Scrum, PMI standarts</li>
             </ul>
      
-            <h3 id="Code">None</h3>
+            <h3 id="Code"> My Code examples: </h3>
+                <pre>
+                //return min, max of triangle square/////////
+                const findSquares = num => {
+                  let min = Math.pow (Math.floor(num/2), 2);
+                  let max = Math.pow (Math.ceil(num/2), 2);
+                  return `${max}-${min}`;
+                };
+                
+                
+                // return max to min sorted number
+                return num > 99 && num < 1000 ? parseInt(num.toString().split("").sort().reverse().join("")) : null;  
+                
+                
+                // return masked string
+                const maskify = (cc) => {
+                const last4Digits = cc.toString().slice(-4);
+                return cc.toString().length > 4 ? last4Digits.padStart(cc.toString().length, '#') : cc.toString(); 
+                }
+                
+                // return DNAStrand
+                function DNAStrand(dna) {
+                  const modDNA = [];
+                  const DNA_PAIR = {
+                    ['A']: 'T',
+                    ['T']: 'A',
+                    ['C']: 'G',
+                    ['G']: 'C',
+                  };
+                  
+                  for (let i = 0; i < dna.length; i++) {
+                      let currentSymbol = dna[i];
+                      modDNA.push(DNA_PAIR[currentSymbol]);
+                      };
+                  return modDNA.join('');
+                }
+                
+                //Convert number to reversed array of digits
+                function digitize(n) {
+                 const arr = [];
+                 const nStr = n.toString().split('').reverse()
+                 for (i=0; i < nStr.length; i++) {
+                     let currentSymbol = nStr[i];
+                     arr[i] = +(currentSymbol); 
+                    };
+                  return arr;
+                }; </pre>
              
             <h4 id="MyEducation"> My Education:</h4>
             <ul> 
                 <li> Diploma of higher education of a specialist in the specialty **automated control systems**</li>
-                <li> PMI cerificate of Project Manager Professional</li>    
+                <li> PMI certificate of Project Manager Professional</li>    
                 <li>Scrum.org cerificate of Scrum Master I</li>
             </ul> 
             
