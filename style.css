@@ -19,8 +19,9 @@ body {
     display: flex;
     padding-bottom: 200px;
     margin-top: 50px;
-    list-style-type: none
-    
+    list-style-type: none;
+    margin-left: auto;
+    padding-right: 50px;
 }
 
 .links li a {
