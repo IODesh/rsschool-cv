@@ -57,7 +57,7 @@
                 
                 
                 // return max to min sorted number
-                return num > 99 && num < 1000 ? parseInt(num.toString().split("").sort().reverse().join("")) : null;  
+                return num > 99 && num &lt; 1000 ? parseInt(num.toString().split("").sort().reverse().join("")) : null;  
                 
                 
                 // return masked string
@@ -76,7 +76,7 @@
                     ['G']: 'C',
                   };
                   
-                  for (let i = 0; i < dna.length; i++) {
+                  for (let i = 0; i &lt; dna.length; i++) {
                       let currentSymbol = dna[i];
                       modDNA.push(DNA_PAIR[currentSymbol]);
                       };
@@ -87,7 +87,7 @@
                 function digitize(n) {
                  const arr = [];
                  const nStr = n.toString().split('').reverse()
-                 for (i=0; i < nStr.length; i++) {
+                 for (i=0; i &lt; nStr.length; i++) {
                      let currentSymbol = nStr[i];
                      arr[i] = +(currentSymbol); 
                     };
