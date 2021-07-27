@@ -1,11 +1,11 @@
-body {
-    margin: 0, auto;
-    width: 2000px;
+body {    
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: black;
     background-image: url(img/1614368424_20-p-svetlo-serii-fon-kartinka-23.jpg);
     background-repeat: inherit;
+    margin:0 auto;
+    width: 2000px;
 }
 
 .nav {
@@ -13,7 +13,8 @@ body {
     display: flex;
     font-size: 13px;
     font-weight: 700;
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .links {
@@ -23,7 +24,7 @@ body {
     list-style-type: none;
     margin-left: auto;
     padding-right: 50px;
-    
+ 
 }
 
 .links li a {
@@ -41,6 +42,7 @@ section {
 padding-left: 50px;
 padding-right: 50px;
 margin: 0 auto;
+
 }
 
 #AboutMe {
